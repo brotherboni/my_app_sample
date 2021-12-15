@@ -31,7 +31,7 @@ function getUser(){
 */
 function getUser(){
 	var student = new Array("kaka", "dada", "Mjomba");
-	for (x=0;student.length;x++){
+	for (x=0;x<student.length;x++){
 		document.write(student[x]);
 		document.write("<br>");
 	}
