@@ -28,11 +28,26 @@ function getUser(){
 		document.write("<br>");
 	}
 }
-*/
+
 function getUser(){
 	var student = new Array("kaka", "dada", "Mjomba");
-	for (x=0;x<student.length;x++){
+	for (var x=0;x<student.length;x++){
 		document.write(student[x]);
+		document.write("<br>");
+	}
+}
+*/
+
+
+function getUser(){
+	var x = 1;
+	while ( x < 100){
+		x+=1
+		
+		if ( x =50){
+			continue;
+		}
+		document.write(x);
 		document.write("<br>");
 	}
 }
